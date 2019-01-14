@@ -1,0 +1,41 @@
+.taskbar{
+  text-align: center;
+  font-family:  "Comic Sans MS", cursive, sans-serif ;
+  margin: 10px;
+  color:white;
+  background-color: blue;
+  padding:5px;
+  border-radius: 50%;
+  width:100px;
+  height: 75px;
+  box-shadow: 0 5px #666;
+}
+.taskbar:active{
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.name{
+  color:white ;
+  text-decoration: underline;
+}
+.shift{
+  margin-left: 10px;
+  font-family:s sans-serif ;
+  font-size: 22px;
+  color:white
+}
+.background{
+  font-family: sans-serif ;
+    background: linear-gradient(to top, #99ffcc 0%, #0066ff 100%);
+}
+
+.text_color{
+  
+}
+
+
+.appearance {
+  font-family: sans-serif ;
+  color:white
+}

@@ -1,0 +1,25 @@
+.back{
+
+    background: linear-gradient(to top, #99ffcc 0%, #0066ff 100%);
+}
+
+.buttons{
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+
+.buttons:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+}

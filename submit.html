@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <title>Finished!</title>
+  </head>
+  <script>
+    n = 0;
+    function Increment() {
+      var n = parseInt(localStorage.getItem("clicks"))
+      n= n + 10
+      localStorage.setItem("clicks", n);
+    }
+  </script>
+  <body class="main">
+    <script >
+      window.onload = Increment()
+    </script>
+    <a href="main_page.html"><button class="button">Home</button></a>
+    <a href="learn.html"><button class="button">Learn</button></a>
+    <a href="leaderboards.html"><button class="button">Leaderboards</button></a>
+    <a href="rewards.html"> <button class="button">Rewards</button></a>
+    <a href="Find_a_Mentor.html"
+      ><button class="button">Find a Mentor</button></a
+    >
+    <h1>Congratulations! You have earned 10 points!</h1>
+
+    <button class="challengeButton"> <a href="challenges.html"> Return to Challenges
+    </button></a>
+  </body>
+</html>

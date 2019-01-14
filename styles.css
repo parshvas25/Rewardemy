@@ -1,0 +1,179 @@
+body {
+    background: linear-gradient(to top, #99ffcc 0%, #0066ff 100%);
+}
+.main {
+  font-family: Calibri, sans-serif;
+  color: white;
+  text-align: center;
+}
+.tabs {
+  text-align: center;
+}
+.home {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.home:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.challengeButton {
+  font-family: Calibri, sans-serif;
+  font-size: 15pt;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+
+.challengeButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.profile {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.profile:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.mentor {
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.mentor:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.learn {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.learn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Groups {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.Groups:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.about {
+  font-family: Calibri, sans-serif;
+  color: white;
+  text-align: center;
+}
+.desc {
+  font-family: Calibri, sans-serif;
+  color: white;
+  text-align: center;
+}
+.kids {
+  width: 230px;
+  height: 230px;
+}
+.education {
+  width: 230px;
+  height: 230px;
+}
+.success {
+  width: 230px;
+  height: 230px;
+}
+.rewards {
+  width: 230px;
+  height: 230px;
+}
+
+.navigate {
+  font-family: Calibri, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+header {
+  text-align: right;
+  color: white;
+  font-family: Calibri, sans-serif;
+}
+

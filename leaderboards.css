@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(to top, #99ffcc 0%, #0066ff 100%);
+}
+.title {
+  font-family: Calibri, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 40pt;
+  margin-top: 0px;
+  margin-left: 350px;
+}
+
+.profile{
+  width:400px;
+  height: 500px;
+  background-color: lightblue;
+  text-align: left;
+  margin-left: 100px;
+}
+
+#noMargin{
+  margin-left: 0px;
+  text-align: center;
+}
+
+.leader {
+  font-family: Calibri, sans-serif;
+  color: white;
+  text-align: center;
+  height: 5px;
+  width: 250px;
+  margin-left: 550px;
+}
+
+.tabs {
+  text-align: center;
+}
+.home {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.home:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.leaderboards {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.leaderboards:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.together{
+  width: 1000px;
+  height: 500px;
+  display: flex;
+}
+#shift{
+  margin-left: 300px;
+  width: 500px;
+}
+.colour-white {
+  color: white;
+  width: 230px;
+  background-color: teal;
+}
+#slightLeft{
+  margin-left: 15px;
+}
+.leaderboardNames{
+  color: white;
+  margin-left: 200px;
+}
+
+.mentor {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.mentor:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.learn {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.learn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Groups {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.Groups:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.header {
+  text-align: right;
+  color: white;
+  font-family: Calibri, sans-serif;
+}

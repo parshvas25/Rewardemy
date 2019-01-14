@@ -1,0 +1,143 @@
+body{
+  background: linear-gradient(to top, #99ffcc 0%, #0066ff 100%); 
+}
+.main{
+  text-align: center;
+  font-family:  Calibri, sans-serif;
+}
+.profile{
+  text-align: right;
+  font-family:  Calibri, sans-serif;
+}
+.rewardsButton{
+  position:absolute;
+  top: 250px;
+  right:240px;
+}
+.rewardButton{
+  position: absolute;
+  top: 370px;
+  right:240px;
+}
+.rewardsButtons{
+  position: absolute;
+  top: 490px;
+  right:220px;
+}
+header{
+  text-align: center;
+  font-family:  Calibri, sans-serif
+
+}
+.tabs {
+  text-align: center;
+}
+.home {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.home:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.leaderboards {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.leaderboards:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.profile {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.profile:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.mentor {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.mentor:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.learn {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.learn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Groups {
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.Groups:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

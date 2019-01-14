@@ -1,0 +1,38 @@
+<html>
+  <head class="main">
+    <script >
+      function setup() {
+        document.getElementById("rewards").innerHTML = localStorage.getItem("clicks")
+      }
+    </script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Challenges</title>
+  </head>
+  <body onload = "setup()" class="main">
+    <header>
+       Points :
+        <span id = "rewards"></span>
+    </header>
+    <div>
+      <a href="main_page.html"><button class="button">Home</button></a>
+      <a href="challenges.html"> <button class="button">Learn</button></a>
+      <a href="leaderboards.html">
+        <button class="button">Leaderboards</button></a
+      >
+      <a href="rewardsPage.html"><button class="button">Rewards</button></a>
+      <a href="Find_a_Mentor.html"
+        ><button class="button">Find a Mentor</button></a
+      >
+      <h1>Current Challenges</h1>
+    </div>
+    <div>
+      <a href="codingChallenge1.html">
+        <button class="challengeButton">Coding Challenge 1 (10 pts)</button>
+      </a>
+    </div>
+    <div>
+      <button class="challengeButton">Volunteer Challenge 1 (13 pts)</button>
+    </div>
+    <div><button class="challengeButton">Art Challenge 1 (7 pt)</button></div>
+  </body>
+</html>

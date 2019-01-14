@@ -1,0 +1,24 @@
+<html>
+    <head> 
+
+    	<script>
+     function lose() {
+      var points = parseInt(localStorage.getItem("clicks"))
+      var updated = (points - 100)
+      localStorage.setItem("clicks",updated)
+  }
+
+    	</script>
+        <title> PIZZA COUPON </title>
+    </head>
+    <body>
+    	<script >
+    		window.onload = lose()
+    	</script>
+        <h1> PIZZA COUPON </h1>
+        <p> Print page and redeem at your local Pizza Pizza for a free medium cheese or pepperoni pizza. </p>
+        <img src = "http://www.freedomchannel.com/wp-content/uploads/2016/10/bar-code-24157_1280.png" WIDTH = 300 HEIGHT = 200>
+
+       <a href="main_page.html"> <button >Return Home</button></a>
+    </body>
+</html>

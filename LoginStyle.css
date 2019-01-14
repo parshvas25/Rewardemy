@@ -1,0 +1,23 @@
+.background{
+  background-color: black
+}
+
+.text{
+  color: white
+}
+
+.taskbar{
+  text-align: center;
+  font-family: Calibri, sans-serif  margin: 10px;
+  color:white;
+  background-color: blue;
+  padding:5px;
+  border-radius: 50%;
+  width:100px;
+  height: 75px;
+  box-shadow: 0 5px #666;
+}
+.taskbar:active{
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);

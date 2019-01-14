@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Rewards</title>
+    <LINK
+      REL="StyleSheet"
+      HREF="rewardsPage.CSS"
+      TYPE="text/css"
+      MEDIA="screen"
+    />
+  </head>
+  <script>
+    function setup() {
+      document.getElementById("rewards").innerHTML = localStorage.getItem("clicks")
+      ;
+    }
+    function lose() {
+      document.getElementById("rewards").innerHTML = parseInt(localStorage.getItem("clicks")) - 100
+    }
+  </script>
+  <body onload="setup()">
+    <header>
+      <h1>Welcome to the Rewards Page</h1>
+      <h2> This is where you can redeem your points </h2>
+      Your current points total is : <span id = "rewards"></span>
+    </header>
+     <div class="tabs">
+      <button class="home">Home</button>
+      <a href="challenges.html"> <button class="learn">Learn</button></a>
+      <a href="leaderboards.html"
+        ><button class="leaderboards">Leaderboards</button></a
+      >
+      <a href="rewardsPage.html"><button class="Groups">Rewards</button></a>
+    </div>
+    </div>
+    <section>
+      <img src = "https://sites.duke.edu/tracylu/files/2017/11/circle-profile-sausalito-298x300.png" Height = 200 Width = 200>
+      <h2 id = "noMargin">Harriet Potter</h2>
+      <h3>Score: 100 </h3>
+      <h3 >Age: 13 </h3>
+      <h3> Interests: </h3>
+      <ul>
+        <li>Swimming</li>
+        <li>Reading</li>
+        <li>Stargazing</li>
+      
+      </ul>
+      <h3> "On Wednesdays, we wear pink."</h3>
+    </section>
+    <a href="rewardsBarcode.html"><button class="rewardsButton">
+          <!-- reward 1 -->
+          <img
+            src="https://www.bing.com/th?id=OIP.lU5tM2RWjQqWk6eWTo_GJAHaE8&w=293&h=195&c=7&o=5&pid=1.7"
+            ALIGN="right"
+            WIDTH="130"
+            HEIGHT="90"
+          /> <h3>100 points</h3>
+          <p>One medium cheese of pepperoni pizza from Pizza Pizza</p>
+        </button>
+      </a>
+         <button class="rewardButton">
+        <!-- reward 2 -->
+        <img
+          src="https://www.bing.com/th?id=OIP.i_9nU-UtjUtTgIIOjTqjZgHaE8&w=204&h=160&c=7&o=5&pid=1.7"
+          ALIGN="LEFT"
+          WIDTH="130"
+          HEIGHT="90"
+        />
+        <h3>500 points</h3>
+        <p>Redeem for one free movie ticket at any Cineplex Theatre</p>
+      </button>
+      <button class="rewardsButtons">
+        <!-- reward 3-->
+        <img
+          src="https://tse4.mm.bing.net/th?id=OIP.aXYz_mVtBlC5_uWWmCEhRgHaHb&pid=Api&w=2300&h=2308&rs=1&p=0"
+          ALIGN="right"
+          WIDTH="130"
+          HEIGHT="90"
+        />
+        <h3>100 points</h3>
+        <p>Redeem for a $10 iTunes Gift Card/Apple Music Subscription </p>
+      </button>
+    </aside>
+  </body>

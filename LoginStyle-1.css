@@ -1,0 +1,42 @@
+.background {
+  background-image: url("https://scontent.fyto1-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/49899105_692973431097848_6264459330225963008_n.png?_nc_cat=109&_nc_ht=scontent.fyto1-1.fna&oh=8016c9dbf7a8f591a60384aebe8f0916&oe=5CCA4245");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color:  #cccccc
+}
+.right{
+  text-align:  center;
+    font-family: Calibri, sans-serif;
+
+}
+.text{
+  text-align: center;
+    font-family: Calibri, sans-serif;
+
+}
+.titleFormat{
+  text-align: center;
+    font-family: Calibri, sans-serif;
+
+}
+.taskbar{
+  font-family: Calibri, sans-serif;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+.tashbar.active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
